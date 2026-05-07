@@ -26,11 +26,15 @@ rama principal a través de un *_Pull Request_*
 *Metodología* 
 
 1. Crear una _feature branch_ con el nombre _"traducir"_ (quedando esta rama como la rama actual o _current_).
+
    a. En VSC: haciendo clic en el nombre de la rama _main_ (abajo a la izquierda) e ingresando el nombre de la rama
+
    b. Por consola: {git checkout -b traducir}
 
 2. Publicar la rama _traducir_.
+
    a. En VSC: junto al nombre de la rama nueva (abajo a la izquierda) se tiene un botón para publicar en la nube.
+   
    b. Por consola: {git push -.set-upstream origin traducir} 
     
 3. Resolver el requerimiento indicado arriba (siempre trabajando en la rama _traducir_).
